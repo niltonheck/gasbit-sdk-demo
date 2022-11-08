@@ -1,7 +1,7 @@
 const axios = require('axios').default;
 
 module.exports = {
-    sendTransaction: ({
+    sendTransaction: async ({
         from, 
         to,
         provider
