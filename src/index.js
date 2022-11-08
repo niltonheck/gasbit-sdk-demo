@@ -1,3 +1,6 @@
-const GasBitSDK = require('./components/gasbit-sdk').default;
-
-module.exports = GasBitSDK;
+module.exports = {
+    sendTransactions: () => {
+        alert('Send Transaction');
+        // ...
+    }
+}
